@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from "react-native";
 
 interface IProps {}
 
- const Property: FC<IProps> = (props) => {
+const Property: FC<IProps> = (props) => {
   const { id } = useLocalSearchParams();
   return (
     <View>
@@ -12,6 +12,5 @@ interface IProps {}
     </View>
   );
 };
-
 
 export default Property;
