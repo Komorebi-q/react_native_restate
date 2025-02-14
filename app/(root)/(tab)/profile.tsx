@@ -1,7 +1,7 @@
 import { settings } from "@/constants/data";
 import icons from "@/constants/icons";
 import images from "@/constants/images";
-import { logout } from "@/lib/appwirte";
+import { logout } from "@/lib/appwrite";
 import { useGlobalContext } from "@/lib/global-provider";
 import clsx from "clsx";
 import {

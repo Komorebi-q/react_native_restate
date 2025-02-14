@@ -1,7 +1,7 @@
 import { createContext, useContext } from "react";
 import type { ReactNode } from "react";
 import { useAppwrite } from "./useAppwrite";
-import { getCurrentUser } from "./appwirte";
+import { getCurrentUser } from "./appwrite";
 
 interface User {
   $id: string;
